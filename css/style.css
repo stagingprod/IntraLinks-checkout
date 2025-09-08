@@ -1,0 +1,60 @@
+body{
+	font-family: 'Inter';
+}
+.bg-dark-blue{
+	background-color:#111e65;
+}
+.bg-light-blue{
+	background-color:#0077c8;
+}
+.bg-yellow{
+background-color: #f5b407;
+}
+
+.text-dark-blue{
+	color:#111e65;
+}
+.form-label span {
+	color: red;
+	margin-left: 2px;
+	font-size: 14px;
+}
+.text-light-blue{
+	color:#0077c8;
+}
+.btn{
+	border-radius:3px;
+	padding:18px 20px;
+}
+.btn-yellow{
+	background-color: #f5b407;
+	color:#000;
+	transition:0.3s ease-in-out;
+}
+.btn i {
+    transform: rotate(-35deg);
+	transition:0.3s ease-in-out;
+}
+.btn:hover i {
+    transform: rotate(0deg);
+}
+.btn-yellow:hover{
+	background-color: #f5b407;
+	color:#000;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="number"],
+select,
+textarea,
+tags.tagify{
+	border-radius:0 !important;
+	box-shadow:none !important;
+}
+
+.pymnt-pg-hdr img {
+    max-height: 50px;
+    width: auto;
+}

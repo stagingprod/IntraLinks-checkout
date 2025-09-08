@@ -1,0 +1,15 @@
+<?php
+
+return [
+    'api' => [
+        'secret_key' => 'YOUR_API_SECRET_KEY_HERE', // Replace with your actual API secret key from Checkout.com
+        'processing_channel_id' => 'YOUR_PROCESSING_CHANNEL_ID_HERE', // Replace with your actual processing channel ID
+        'environment' => 'sandbox', // Change to 'production' for live environment
+    ],
+    'emails' => [
+        'admin' => 'admin@example.com, another-admin@example.com', // Replace with actual admin email addresses
+        'team' => 'team@example.com, another-team@example.com', // Replace with actual team email addresses
+    ],
+];
+
+?>
