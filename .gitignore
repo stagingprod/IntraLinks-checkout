@@ -1,10 +1,6 @@
 
 # Ignore sensitive configuration files
 config.php
-
-# Ignore vendor directory (Composer dependencies)
-
-
 # Ignore OS generated files
 .DS_Store
 Thumbs.db
